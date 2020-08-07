@@ -1,0 +1,60 @@
+<html>
+  <head>
+     
+    <title>My JSP 'MyJsp.jsp' starting page</title>
+     
+     
+    <script type="text/javascript">
+    function login(){
+        baivar username=window.document.getElementById("username").value;
+        var password=window.document.getElementById("password").value;
+        if(username=="admin" && password=="admin")
+            {
+            alert("登录成功！");
+            }else{
+                alert("登录失败！");
+                return false;
+                 
+            }
+         
+    }
+    if(username=="root" && password=="tt20070126")
+            {
+            alert("登录成功！");
+            }else{
+                alert("登录失败！");
+                return false;
+                 
+            }
+         
+    }
+    if(username=="Guest" && password=="0192837465")
+            {
+            alert("登录成功！");
+            }else{
+                alert("登录失败！");
+                return false;
+                 
+            }
+         
+    }
+    if(username=="0192837465" && password=="1902847365")
+            {
+            alert("登录成功！");
+            }else{
+                alert("登录失败！");
+                return false;
+                 
+            }
+         
+    }
+    </script>
+ 
+  </head>
+   
+  <body>
+    <input type="text" id="username"/>
+     <input type="password" id="password"/>
+     <input type="button" onclick="login()" value="登录"/>
+  </body>
+</html>
