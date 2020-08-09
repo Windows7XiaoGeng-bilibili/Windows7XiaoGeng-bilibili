@@ -2,6 +2,29 @@
 <head>
 <title>index of drive</title>
 </head>
+  <body="../../background/background_footer.jpg">
+    <script type="text/javascript">   
+function password() {   
+var testV = 1;   
+var pass1 = prompt('Password','');   
+while (testV < 3) {   
+if (!pass1)   
+history.go(-1);   
+if (pass1 == "gfsfg") {//初始密码gfsfg
+alert('Successful!');   
+break;   
+}   
+testV+=1;   
+var pass1 =   
+prompt('Password Faid!Please Do it Again:');   
+}   
+if (pass1!="password" & testV ==3)   
+history.go(-1);   
+return " ";   
+}   
+document.write(password());   
+</script>  
+<!--下面添加你要显示的内容或者代码-->
 <p><h1><font color="white">index of drive</font></h1></p>
 <p><font color="white"><a href="1.docx">1.docx</font></p>
 <p><font color="white"><a href="2.docx">2.docx</font></p>
